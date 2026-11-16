@@ -1,0 +1,14 @@
+:root { --night: #070a14; --text: #f2f0ea; --dim: #a9a8a6; --ember: #ff7a3d; --rule: #262a38; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--night); color: var(--text); font: 17px/1.6 -apple-system, "Helvetica Neue", Arial, sans-serif; }
+.wrap { max-width: 640px; margin: 0 auto; padding: 56px 24px 80px; }
+.mark { display: flex; align-items: center; gap: 14px; text-decoration: none; color: var(--text); font-weight: 800; letter-spacing: .28em; font-size: 14px; }
+.mark img { width: 44px; height: 44px; border-radius: 50%; }
+h1 { font-size: 40px; line-height: 1.08; font-weight: 800; font-stretch: expanded; margin: 64px 0 20px; letter-spacing: -.01em; }
+h2 { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--dim); font-weight: 600; margin: 44px 0 6px; padding-top: 18px; border-top: 1px solid var(--rule); }
+p { margin: 0 0 14px; }
+.lead { color: var(--dim); font-size: 19px; }
+a { color: var(--ember); }
+.go { display: inline-block; margin-top: 18px; padding: 15px 22px; border-radius: 4px; background: var(--ember); color: var(--night); font-weight: 700; text-decoration: none; }
+.short { border-left: 3px solid var(--ember); padding-left: 16px; }
+footer { margin-top: 64px; color: var(--dim); font-size: 14px; }
